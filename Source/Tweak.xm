@@ -101,7 +101,7 @@ void _ComponentEnemy_Update(void *componentEnemy){
 
 			currentTarget->location = enemyLocation;
 			currentTarget->distanceFromMe = Vector3::distance(currentTarget->location, me->location);
-			currentTarget->health = ComponentEnemy_GetCurrentHealth(currentTarget->object);;
+			currentTarget->health = ComponentEnemy_GetCurrentHealth(currentTarget->object);
 		}
 
 		//do not track a dead enemy
